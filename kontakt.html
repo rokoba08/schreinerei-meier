@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kontakt - Schreinerei Meier</title>
+  <link rel="stylesheet" href="css/styleneu.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:alt" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+</head>
+<body>
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="leistungen.html">Unsere Leistungen</a></li>
+  <li><a href="geschichte.html">Unternehmensgeschichte</a></li>
+  <li class="active-right"><a href="kontakt.html">Kontakt</a></li>
+</ul>
+<br>
+<div class="container-contact">
+  <h2>Kontaktformular</h2>
+  <form action="/submit-form" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">E-Mail:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="subject">Betreff:</label>
+    <input type="text" id="subject" name="subject" required>
+
+    <label for="message">Nachricht:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">Absenden</button>
+  </form>
+</div>
+</body>
+</html>

@@ -224,6 +224,7 @@ button {
 }
 button:hover {
   background-color: #006c73;
+  box-shadow: 0px 0px 10px 3px #00a4ae;
 }
 
 .contact-data {
@@ -234,4 +235,21 @@ button:hover {
   left: 50%;
   top: 16%;
   transform: translateX(-150%);
+}
+
+.contact-a:hover {
+  box-shadow: 0px 0px 10px 5px #D9B79A;
+  border-radius:20px 20px;
+}
+
+.contact-a {
+  text-decoration: none;
+  color: #000000;
+  text-shadow: none;
+  -webkit-transition: 250ms ease 0s;
+  -moz-transition: 250ms ease 0s;
+  -o-transition: 250ms ease 0s;
+  transition: 250ms ease 0s;
+  outline: 0 none;
+  background-color: transparent;
 }
